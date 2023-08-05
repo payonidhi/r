@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis Result</h1>
+        <p>Review: {{ text }}</p>
+        <p>Sentiment: {{ sentiment }}</p>
+        <a href="/">Analyze Another Review</a>
+    </div>
+</body>
+</html>
